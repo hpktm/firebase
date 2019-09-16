@@ -1,10 +1,10 @@
 var admin = require('firebase-admin');
 
-var serviceAccount = require("D:\/node\/serviceAccountKey.json");
+var serviceAccount = require(" path to serviceAccountKey.json ");
 
 var app = admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://experiment-1536292725060.firebaseio.com"
+  databaseURL: " path of the firebase realtime database "
 });
 
 var db = admin.database();
