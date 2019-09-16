@@ -25,7 +25,7 @@ ref.on("value", function(snapshot) {
 var postsRef = ref.child("posts");
 
 // reading db on new insertion
-/*
+
 postsRef.push({
   author: "gracehop",
   title: "Announcing COBOL, a New Programming Language"
@@ -38,4 +38,3 @@ ref.on("child_added", function(snapshot, prevChildKey) {
   console.log("Title: " + newPost.title);
   console.log("Previous Post ID: " + prevChildKey);
 });
-*/
